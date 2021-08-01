@@ -104,7 +104,11 @@ nav {
     flex-basis: 25%;
     position: sticky;
     top: 70px;
-    align-self: flex-end;
+    align-self: flex-start;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+    color: #1876f2;
 }
 
 .main-content {
@@ -143,4 +147,22 @@ nav {
     margin: 25px 0;
     color: #1876f2;
     font-weight: 500;
+}
+
+.sidebar-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.sidebar-title h4 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.sidebar-title a {
+    text-decoration: none;
+    color: #1876f2;
+    font-size: 12px;
 }
