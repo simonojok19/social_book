@@ -229,3 +229,8 @@ nav {
     border-radius: 50px;
     margin-right: 15px;
 }
+
+.online-list .online::after {
+    top: unset;
+    bottom: 5px;
+}
